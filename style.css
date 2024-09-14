@@ -1,0 +1,103 @@
+/* #0074e9 #e7223d*/
+
+/* .:class #:id*/
+h1 {
+  text-align: center;
+  margin: 50px auto 30px;
+}
+
+h1 a {
+}
+
+h1 a img {
+  width: 200px;
+}
+
+main {
+  width: 500px;
+  background: aqua;
+  margin: 0 auto;
+}
+
+main #loginFrm {
+}
+
+main #loginFrm fieldset {
+}
+
+main #loginFrm fieldset ul {
+}
+
+main #loginFrm fieldset ul li {
+}
+
+main #loginFrm fieldset ul .error {
+}
+
+main #loginFrm fieldset ul .id_error {
+}
+
+main #loginFrm fieldset ul .pw_error {
+}
+
+main #loginFrm fieldset ul li span {
+}
+
+main #loginFrm fieldset ul li #id_bg {
+}
+
+main #loginFrm fieldset ul li #pw_bg {
+}
+
+main #loginFrm fieldset ul li span input {
+}
+
+main #loginFrm fieldset ul li span input[type="text"] {
+}
+
+main #loginFrm fieldset ul li span input[type="password"] {
+}
+
+main #loginFrm fieldset ul li .pw_show_hide {
+}
+
+main #loginFrm fieldset .btm {
+}
+
+main #loginFrm fieldset .btm p {
+}
+
+main #loginFrm fieldset .btm p label {
+}
+
+main #loginFrm fieldset .btm p label input[name="login_y"] {
+}
+
+main #loginFrm fieldset .btm p label span {
+}
+
+main #loginFrm fieldset .btm .idpw_search {
+}
+
+main #loginFrm fieldset #login_btn {
+  background-color: #0074e9;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0;
+}
+
+main .join_link {
+  border: 1px solid #aaa;
+  color: #0074e9;
+  display: block;
+  text-align: center;
+  background: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
