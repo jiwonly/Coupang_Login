@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <!-- 한국어 -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- IE 브라우저에서 최신 렌더링 엔진을 사용하도록 설정 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 모바일 기기에서의 화면 크기 조정 설정 -->
     <title>쿠팡 로그인</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
@@ -11,12 +14,22 @@
   </head>
   <body>
     <h1>
-      <a href="#"><img src="./logo.png" alt="" /></a>
+      <a href="#"><img src="./logo.png" alt="coupang logo" /></a>
+      <!-- 화면 상단 쿠팡 로고 -->
+      <!-- href : 링크를 #으로 설정 -->
+      <!-- alt : 이미지가 로드되지 않을 때 표시될 대체 텍스트 -->
     </h1>
     <main>
       <form action="#" method="post" id="loginFrm">
+        <!-- 로그인 정보를 입력받기 위한 폼 -->
+        <!-- action : 데이터를 전송할 url -->
+        <!-- method : 데이터를 서버로 보낼 때 방식 설정 (get,post 두 가지 방식)-->
+        <!-- post : 주로 로그인, 가입 등의 데이터를 보낼 때 사용 & 보안성 유지-->
+        <!-- + get : 파라미터가 주소창에 나오는 방식, 공개되어도 문제가 되지 않는 정보에 적용 -->
         <fieldset>
+          <!-- 폼 관련 항목을 묶음 -->
           <legend class="skip">로그인양식</legend>
+          <!-- fieldset에 제목 부여, 클래스 skip은 시각적으로 숨김 -->
           <ul>
             <li>
               <span class="id_bg"><!-- 배경이미지(메일) --></span>
@@ -25,29 +38,38 @@
               /></span>
             </li>
             <li class="error id_error">아이디(이메일)을 입력해주세요</li>
+            <!-- 아이디 입력 오류 처리 -->
             <li>
               <span class="pw_bg"><!-- 배경이미지(비밀번호) --></span>
               <span
                 ><input type="password" name="user_pw" placeholder="비밀번호"
               /></span>
               <span class="pw_show_hide" title="문자보이기"></span>
+              <!-- 사용자가 비밀번호를 표시하거나 숨길 수 있는 버튼 -->
             </li>
             <li class="error pw_error">비밀번호를 입력해주세요</li>
+            <!-- 비밀번호 입력 오류 처리 -->
           </ul>
           <div class="btm">
             <p>
               <label>
                 <input type="checkbox" name="login_y" id="login_y" />
+                <!-- 자동 로그인 옵션을 위한 체크박스 -->
                 <span>자동로그인</span>
               </label>
             </p>
             <a href="#" class="idpw_search">아이디(이메일)/비밀번호 찾기</a>
+            <!-- 아이디/비밀번호를 찾기 위한 링크 -->
           </div>
           <button type="submit" id="login_btn">로그인</button>
+          <!-- 로그인 버튼 -->
+          <!-- submit은 폼의 데이터를 전송하는 기능 -->
         </fieldset>
       </form>
       <a href="#" class="join_link">회원가입</a>
+      <!-- 회원가입 페이지로 이동하는 링크 -->
     </main>
     <footer>&copy; Coupang Corp. All rights reserved.</footer>
+    <!-- 저작권 정보 표시 -->
   </body>
 </html>
